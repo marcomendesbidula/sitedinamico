@@ -49,7 +49,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
         </div><!--w50-->
         <div class="">
-            <img src="imagens/foto-perfil.jpg" />
+            <img src="imagens/foto-perfil2.jpg" />
         </div><!--w50-->
         </div><!--center-->
     </section><!--descricao-autor-->
@@ -57,7 +57,21 @@
     <section class="especialidades">
         <h2 class="title">Especialidades</h2>
         <div class="center">
-
+            <div class="box-especialidades">
+                <h3>Icone1</h3>
+                <h3>CSS3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
+            </div>
+            <div class="box-especialidades">
+                <h3>Icone2</h3>
+                <h3>HTML5</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
+            </div>
+            <div class="box-especialidades">
+                <h3>Icone3</h3>
+                <h3>JavaScript</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
+            </div>
         </div><!--center-->
     </section>
 
