@@ -73,7 +73,27 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
             </div>
         </div><!--center-->
-    </section>
+    </section><!--especialidades-->
+
+    <section class="extras">
+        <div class="center">
+            <div class="w50">
+                <h2 class="title">Depoimentos</h2>
+                <div class="depoimentos-single">
+                    <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
+                    <p class="nome-autor">Loren Ipsun</p>
+                </div><!--depoimentos-single-->
+                <div class="depoimentos-single">
+                    <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
+                    <p class="nome-autor">Loren Ipsun</p>
+                </div><!--depoimentos-single-->
+                <div class="depoimentos-single">
+                    <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
+                    <p class="nome-autor">Loren Ipsun</p>
+                </div><!--depoimentos-single-->
+            </div><!--w50-->
+        </div><!--center-->
+    </section><!--extras-->
 
 </body>
 </html>
