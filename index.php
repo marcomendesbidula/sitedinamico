@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="estilo/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="palavras-chaves,do,meu,site">
     <meta name="description" content="Descrição do meu site">
+    <link href="estilo/style.css" rel="stylesheet" />
     <title>Site Dinamico</title>
 </head>
 <body>
     <header>
         <div class="center">
-            <div class="logo">logomarca</div><!--logo-->
-            <nav class="desktop">
+            <div class="logo left">logomarca</div><!--logo-->
+            <nav class="desktop right">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre</a></li>
@@ -20,7 +23,7 @@
                     <li><a href="">Contato</a></li>
                 </ul>
             </nav>
-            <nav class="mobile">
+            <nav class="mobile right">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre</a></li>
@@ -28,11 +31,12 @@
                     <li><a href="">Contato</a></li>
                 </ul>
             </nav>
+            <div class="clear"></div><!--clear-->
         </div><!--center-->
     </header>
 
     <section class="banner-principal">
-        <div classs="center">
+        <div class="center">
         <form>
             <h2>Qual é o seu e-mail?</h2>
             <input type="email" name="email" required />
@@ -43,57 +47,123 @@
 
     <section class="descricao-autor">
         <div class="center">
-        <div class="w-50">
+        <div class="w50 left">
             <h2>Marco Aurélio M. Santos</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, 
+            eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. 
+            Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. 
+            Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, 
+            eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. 
+            Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. 
+            Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
         </div><!--w50-->
-        <div class="">
+        <div class="w50 left">
             <img src="imagens/foto-perfil2.jpg" />
         </div><!--w50-->
+        <div class="clear"></div>
         </div><!--center-->
     </section><!--descricao-autor-->
 
     <section class="especialidades">
-        <h2 class="title">Especialidades</h2>
         <div class="center">
-            <div class="box-especialidades">
-                <h3>Icone1</h3>
-                <h3>CSS3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
-            </div>
-            <div class="box-especialidades">
-                <h3>Icone2</h3>
-                <h3>HTML5</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
-            </div>
-            <div class="box-especialidades">
-                <h3>Icone3</h3>
-                <h3>JavaScript</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
-            </div>
+        <h2 class="title">Especialidades</h2>
+        
+        <div class="w33 left box-especialidade">
+				<h3><i class="fa fa-css3" aria-hidden="true"></i></h3>
+				<h4>CSS3</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div><!--box-especialidade-->
+
+			<div class="w33 left box-especialidade">
+				<h3><i class="fa fa-html5" aria-hidden="true"></i></h3>
+				<h4>HTML 5</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div><!--box-especialidade-->
+
+			<div class="w33 left box-especialidade">
+				<h3><i class="fa fa-gg-circle"></i></h3>
+				<h4>Javascript</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div><!--box-especialidade-->
+
+			<div class="w33 left box-especialidade">
+				<h3><i class="fa fa-css3" aria-hidden="true"></i></h3>
+				<h4>CSS3</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div><!--box-especialidade-->
+
+			<div class="w33 left box-especialidade">
+				<h3><i class="fa fa-html5"></i></h3>
+				<h4>HTML 5</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div><!--box-especialidade-->
+
+			<div class="w33 left box-especialidade">
+				<h3><i class="fa fa-gg-circle"></i></h3>
+				<h4>Javascript</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div><!--box-especialidade-->
+            <div class="clear"></div>
         </div><!--center-->
     </section><!--especialidades-->
 
     <section class="extras">
         <div class="center">
-            <div class="w50">
+            <div class="w50 left">
                 <h2 class="title">Depoimentos</h2>
                 <div class="depoimentos-single">
-                    <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
+                    <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero,
+                    eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien.
+                    Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque.
+                    Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
                     <p class="nome-autor">Loren Ipsun</p>
                 </div><!--depoimentos-single-->
                 <div class="depoimentos-single">
-                    <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
+                    <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, 
+                    eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. 
+                    Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. 
+                    Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
                     <p class="nome-autor">Loren Ipsun</p>
                 </div><!--depoimentos-single-->
                 <div class="depoimentos-single">
-                    <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
+                    <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, 
+                    eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien. 
+                    Fusce aliquam in magna at tristique. Curabitur eu felis faucibus sem tempor aliquam id eget neque. 
+                    Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
                     <p class="nome-autor">Loren Ipsun</p>
                 </div><!--depoimentos-single-->
             </div><!--w50-->
+            <div class="w50 left">
+                <h2 class="title">Serviços</h2>
+                <div class="servicos">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, 
+                    eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, 
+                    eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed viverra, diam in sodales accumsan, sapien mi tincidunt libero, 
+                    eget placerat quam risus in ante. Phasellus auctor molestie ipsum, quis vehicula sapien.</li>
+                </ul>
+                </div><!--servicos-->
+            </div><!--w50-->
+            <div class="clear"></div>
         </div><!--center-->
     </section><!--extras-->
+
+    <footer>
+        <div class="center">
+            <p>Todos os direitos reservados</p>
+        </div><!--center-->
+    </footer>
 
 </body>
 </html>
