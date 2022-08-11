@@ -24,6 +24,9 @@
                 </ul>
             </nav>
             <nav class="mobile right">
+                <div class="botao-menu-mobile">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                </div><!--botao-menu-mobile-->
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre</a></li>
@@ -36,6 +39,7 @@
     </header>
 
     <section class="banner-principal">
+        <div class="overlay"></div><!--overlay-->
         <div class="center">
         <form>
             <h2>Qual é o seu e-mail?</h2>
@@ -61,7 +65,7 @@
             Pellentesque sit amet tempus urna. Nullam sagittis pellentesque blandit.</p>
         </div><!--w50-->
         <div class="w50 left">
-            <img src="imagens/foto-perfil2.jpg" />
+            <img class="right" src="imagens/foto-perfil2.jpg" />
         </div><!--w50-->
         <div class="clear"></div>
         </div><!--center-->
