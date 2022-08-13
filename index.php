@@ -78,37 +78,46 @@
         <div class="w33 left box-especialidade">
 				<h3><i class="fa fa-css3" aria-hidden="true"></i></h3>
 				<h4>CSS3</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
 			</div><!--box-especialidade-->
 
 			<div class="w33 left box-especialidade">
 				<h3><i class="fa fa-html5" aria-hidden="true"></i></h3>
 				<h4>HTML 5</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
 			</div><!--box-especialidade-->
 
 			<div class="w33 left box-especialidade">
 				<h3><i class="fa fa-gg-circle"></i></h3>
 				<h4>Javascript</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
 			</div><!--box-especialidade-->
 
 			<div class="w33 left box-especialidade">
 				<h3><i class="fa fa-css3" aria-hidden="true"></i></h3>
 				<h4>CSS3</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+                </p>
 			</div><!--box-especialidade-->
 
 			<div class="w33 left box-especialidade">
 				<h3><i class="fa fa-html5"></i></h3>
 				<h4>HTML 5</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod    
+                </p>
 			</div><!--box-especialidade-->
 
 			<div class="w33 left box-especialidade">
 				<h3><i class="fa fa-gg-circle"></i></h3>
 				<h4>Javascript</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                </p>
 			</div><!--box-especialidade-->
             <div class="clear"></div>
         </div><!--center-->
