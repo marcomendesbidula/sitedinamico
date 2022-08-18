@@ -14,7 +14,7 @@
 <body>
     <header>
         <div class="center">
-            <div class="logo left">logomarca</div><!--logo-->
+            <div class="logo left"><a href="/">logomarca</a></div><!--logo-->
             <nav class="desktop right">
                 <ul>
                     <li><a href="">Home</a></li>
@@ -178,14 +178,7 @@
         </div><!--center-->
     </footer>
     <script src="js/jquery.js"></script>
-    <script>
-        $(function(){
-            
-            var mensagem = "Olá Mundo";
-            console.log(mensagem);
-            alert(mensagem);
-        })
-    </script>
+    <script src="js/scripts.js"></script>
 
 </body>
 </html>
