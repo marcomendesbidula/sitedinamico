@@ -26,4 +26,13 @@ $(function(){
         var divScroll = $(elemento).offset().top;
         $('html,body').animate({'scrollTop':divScroll},2000);
     }
+
+    carregarDinamico();
+    function carregarDinamico(){
+        $('[realtime]').click(function(){
+            var pagina = $(this).attr('realtime');
+            $('.container-principal').load('/criando site dinamico/pages/'+pagina+'.php');
+            return false;
+        })
+    }
 })
